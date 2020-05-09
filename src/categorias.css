@@ -1,0 +1,191 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    
+}
+
+#titlebar
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: #6E0C09;
+    display: inline-block;
+}
+
+
+#logo > img
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 20%;
+    height: auto;
+    margin-left: 15%;
+    float: left;
+}
+
+#search
+{
+    padding: 0px;
+    margin-left: 1%;
+    margin-right: 0px;
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+    width: 40%;
+    float: left;
+}
+
+#search > input
+{
+    width: 90%;
+    float: left;
+    padding: 10px;
+}
+
+#search > img
+{
+    background-color: #AD130E;
+    height: 31px;
+    width: auto;
+    padding: 4px;
+}
+
+#user > img
+{
+    width: 50px;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#page
+{
+    margin: 0px;
+    background-color: #FFCC80;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+#page_body{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#category_section
+{
+    margin: 0px;
+    height: 100%;
+    margin-top: 0.5%;
+    display: inline-block;
+    width: 100%;
+}
+
+#category_section > h1
+{   
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 0.65%;
+    padding-bottom: 0.65%;
+    color: #FFFFFF;
+    text-align: center;
+    background: #94100C;
+    width: 100%;
+    font-size: 18px;
+}
+
+.category
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.category > li
+{
+    background-color: #BD2E1E;
+    float: left;
+    border-style:solid;
+    border-color: #6E0C09;
+    border-width:1px;   
+    list-style-type: none;
+    width: 14.65%;
+    height: 30%;
+    margin-left: 0.9%;
+    margin-right: 0.9%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.category > li > p
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 20px;
+}
+
+.category > li > a
+{
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.fotoCategory
+{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+.aud
+{
+    margin-top: 30px;
+}
+
+footer
+{
+    color: #FFFFFF;
+    background-color: #BF360C;
+    margin: 0px;
+    width: 100%;
+    height: 120px;
+}
+
+#footerlist
+{
+    float: left;
+    margin-left: 20px;
+}
+
+.linkfooter
+{
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+#footerimg
+{
+    height: auto;
+    width: 30%;
+    float: right;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#footerimg > img
+{
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+}
